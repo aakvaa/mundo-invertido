@@ -1,0 +1,9 @@
+name: mundo-invertido
+services:
+    bootcamp-devops:
+        tty: true
+        stdin_open: true
+        container_name: httpd
+        ports:
+            - 80:80
+        image: aaakvaaa/bootcamp-devops:1.0
